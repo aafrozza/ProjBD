@@ -1,0 +1,25 @@
+{
+  "name": "ProjBD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "parcel src/index.html",
+    "server": "ts-node-script srv/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.29.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite": "^4.0.17",
+    "sqlite3": "^5.0.0"
+  }
+}
